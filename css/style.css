@@ -41,14 +41,13 @@ header section .content .content-heading{
 header section .content .heading{
     margin:auto;
     width:50%;
-
+}
 header section .content .heading h1{
     color: white;
     font-size: 90px;
     font-weight: 600;
     text-align: center;
     margin-bottom: 20px;
-    
 }
 
 header section .content .content-short-descp{
