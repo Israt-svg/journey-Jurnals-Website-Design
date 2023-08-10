@@ -38,12 +38,15 @@ header section .content .content-heading{
     display: flex;
 }
 
-header section .content .content-heading h1{
+header section .content .heading{
+    margin:auto;
+    width:50%;
+
+header section .content .heading h1{
     color: white;
     font-size: 90px;
     font-weight: 600;
     text-align: center;
-    width: 680px;
     margin-bottom: 20px;
     
 }
