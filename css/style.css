@@ -1,0 +1,511 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.327),rgba(0, 0, 0, 0.4)) , url(../img/img_10.jpg);
+    height: 900px;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+header section .nav-bar .row .col-sm-4 h2{
+    color: white;
+    width: 180px;
+    font-weight: 600;
+    padding: 30px 0px 50px 90px;
+}
+
+header section .nav-bar .row .col-sm-5 .nav .nav-item .nav-link{
+    margin-top: 40px;
+    color: white;
+    font-weight: 600;
+}
+
+header section .content .content-heading{
+    justify-content: center;
+    display: flex;
+}
+
+header section .content .heading{
+    width: 50%;
+    margin: auto;
+}
+
+header section .content .heading h1{
+    color: white;
+    font-size: 90px;
+    font-weight: 600;
+    text-align: center;
+    
+    margin-bottom: 20px;
+    
+}
+
+header section .content .content-short-descp{
+    justify-content: center;
+    display: flex;
+}
+
+header section .content .content-short-descp p{
+    color: white;
+    text-align: center;
+    width: 700px;
+}
+
+header section .explore-part{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+header section .explore-part .explore{
+    background-color: rgba(255, 255, 255, 0.15);
+    width: 970px;
+    height: 200px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header section .explore-part .explore .explore-options{
+    background-color: white;
+    width: 900px;
+    height: 130px;
+    border-radius: 15px;
+}
+
+header section .explore-part .explore .explore-options .row{
+    display: flex;
+    text-align: center;
+    margin-top: 25px;
+}
+
+header section .explore-part .explore .explore-options .row .col-sm-3 p{
+    font-size: 15px;
+    color: rgb(197, 193, 193);
+}
+
+header section .explore-part .explore .explore-options .row .col-sm-3 h5{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+header section .explore-part .explore .explore-options .row .col-sm-3 h5 i{
+    color: #338991;
+    font-size: 20px;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+header section .explore-part .explore .explore-options .row .col-sm-3 .btn{
+    margin-top: 10px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 10px;
+    color: white;
+    font-weight: 600;
+    background-color:  #4aa3ab;
+}
+
+header section .ticket-booking{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+header section .ticket-booking .booking{
+    background-color: white;
+    width: 1100px;
+    height: 220px;
+    border-radius: 15px;
+    justify-content: space-around;
+}
+
+header section .ticket-booking .row .col-sm-4{
+    margin-top: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+header section .ticket-booking .row .col-sm-4 img{
+    width: 40px;
+    height: auto;
+}
+
+header section .ticket-booking .row .col-sm-4 .trip-plan h3{
+    
+    margin-top: 10px;
+    color: #4aa3ab;
+    font-weight: 600;
+}
+
+header section .ticket-booking .row .col-sm-4 .trip-plan p{
+    margin-left: 30px;
+    font-size: 16px;
+    width: 280px;
+}
+
+/** About Us Part CSS **/
+
+section .about-us{
+    background-image: linear-gradient( rgb(238, 237, 237), rgb(248, 248, 248));
+}
+
+section .about-us .row .col-sm-6{
+    max-width: 700px;
+    width: 90%;
+    margin: auto;
+}
+
+section .about-us .row .col-sm-6 .photo-gallery{
+    display: flex;
+    gap: 30px;
+}
+
+section .about-us .row .col-sm-6 .photo-gallery .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section .about-us .row .col-sm-6 .column img{
+    border-radius: 20px;
+    width: 100%;
+    height: 90%;
+    object-fit: cover;
+}
+
+.empty{
+    height: 280px;
+}
+
+section .about-us .row .col-sm-4 h3{
+    margin-top: 60px;
+    color: #4aa3ab;
+    font-weight: 600;
+}
+
+section .about-us .row .col-sm-4 h1{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+section .about-us .row .col-sm-4 p{
+    color: rgb(137, 137, 137);
+    margin-top: 15px;
+    
+}
+
+
+section .about-us .row .col-sm-4 .btn{
+    margin-top: 20px;
+    background-color: #4aa3ab;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 18px;
+}
+
+/** Must Visit Destination **/
+
+section .must-visit-destination{
+    background-image: linear-gradient( #F8F8F8, rgb(251, 250, 250));
+}
+
+.heading h4{
+    color:  #338991;
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.heading h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+section .must-visit-destination .destinations .row{
+    margin: auto;
+    justify-content: center;
+}
+
+section .must-visit-destination .destinations .row .col-sm-3{
+    margin: 30px;
+}
+
+section .must-visit-destination .destinations .row .col-sm-3 .card{
+    border: none;
+    background: none;
+}
+
+section .must-visit-destination .destinations .row .col-sm-3 .card .card-img-top{
+    border-radius:20px;
+}
+
+section .must-visit-destination .destinations .row .col-sm-3 .card .card-body h6{
+    font-size: 13px;
+    margin-right: 20px;
+    color: rgb(172, 172, 172);
+}
+
+section .must-visit-destination .destinations .row .col-sm-3 .card .card-body h6 i{
+    color: #4aa3ab;
+    margin-bottom: 15px;
+}
+
+section .must-visit-destination .destinations .row .col-sm-3 .card .card-body .pricing{
+    color: #4aa3ab;
+}
+
+section .must-visit-destination .destinations .row .col-sm-3 .card .card-body .rating{
+    color: rgb(245, 132, 45);
+    font-size: 22px;
+}
+
+/** Customized Experiences **/
+section .customized-experiences{
+    background-color: #f8f8f8;
+}
+
+section .customized-experiences .customized-heading{
+   text-align: center;
+}
+
+section .customized-experiences .customized-heading h4{
+    padding-top: 65px;
+    color: #4aa3ab;
+}
+
+section .customized-experiences .customized-heading h1{
+    font-size: 70px;
+    font-weight: 600;
+
+    padding-bottom: 50px;
+}
+
+section .customized-experiences .packages .row{
+    margin: auto;
+    justify-content: center;
+}
+
+section .customized-experiences .packages .row .col-sm-3 {
+    margin: 30px;
+}
+section .customized-experiences .packages .row .col-sm-3 .package-card{
+    border: none;
+    border-radius: 10px;
+    height: 450px;
+    padding: 20px;
+    box-shadow: 20px 20px 20px 20px rgb(237, 237, 237);
+}
+
+/* section .customized-experiences .packages .row .col-sm-3 .package-card:focus{
+    background-color: #4aa3ab;
+} */
+
+section .customized-experiences .packages .row .col-sm-3 .package-card .card-body{
+    margin: 30px;
+}
+
+section .customized-experiences .packages .row .col-sm-3 .package-card .card-body h6{
+    color: #4aa3ab;
+    font-size: 30px;
+}
+
+
+/* For mouseover() and mouseout() */
+.card-diff{
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: #4aa3ab;
+    border: none;
+    border-radius: 10px;
+    height: 450px;
+    box-shadow: 20px 20px 20px 20px rgb(237, 237, 237);
+}
+
+.card-diff .card-body{
+    padding: 30px;
+    color: white;
+}
+
+.card-diff .card-body h6{
+    color: white;
+    font-size: 30px;
+}
+
+.card-diff .card-body .btn{
+    background-color: white;
+    margin-left: 10px; 
+}
+
+.card-diff .card-body .btn a{
+    color: #4aa3ab;
+    text-decoration: none;
+    
+}
+
+section .customized-experiences .packages .row .col-sm-3 .package-card .card-body .btn{
+    background-color: #4aa3ab;
+}
+section .customized-experiences .packages .row .col-sm-3 .package-card .card-body .btn a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+/**Testimonial**/
+section .testimonial{
+    background-color: #f8f8f8;
+}
+
+section .testimonial .client-review .row{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+
+section .testimonial .client-review .row .col-sm-3 .client-img img{
+    margin-top: 50px;
+    width: 250px;
+    border-radius: 10px;
+}
+
+section .testimonial .client-review .row .col-sm-4 .client-img .img-large{
+    width: 380px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+section .testimonial .client-review .row .review{
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+section .testimonial .client-review .row .review p{
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+}
+
+section .testimonial .client-review .row .review p i{
+    color: rgb(255, 174, 0);
+    font-size: 24px;
+}
+
+section .testimonial .client-review .row .review h2{
+    text-align: center;
+    font-weight: 600;
+    font-size: 27px;
+    margin-bottom: 10px;
+}
+
+/*view blogs and posts*/
+
+section .view-all-post{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+section .view-all-post button{
+    width: 150px;
+    background-color: #5ca7ad;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Footer*/
+/*top footer*/
+section footer .top-footer{
+    background-image: url(../img/img_32.png);
+    background-size: cover;
+    padding: 100px;
+}
+
+section footer .top-footer h2{
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+section footer .top-footer .subscribe-btn{
+    text-align: center;
+    white-space: nowrap;
+}
+
+section footer .top-footer .subscribe-btn input{
+    width: 65%;
+    height: 80px;
+    border: none;
+    border-radius: 10px 0px 0px 10px;
+    padding: 15px;
+}
+
+/* section footer .top-footer .subscribe-btn input::placeholder{
+    color: black;
+} */
+
+section footer .top-footer .subscribe-btn button{
+    background-color: #5DBED5;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    width: 150px;
+    height: 80px;
+    position: relative;
+    left: -10px;
+}
+
+/*bottom Footer*/
+
+section footer .bottom-footer{
+    background-color: #58bdd6;
+    padding: 30px;
+}
+
+section footer .bottom-footer .row .col-sm-6 h2{
+    color: white;
+    width: 180px;
+    font-weight: 600;
+    padding: 30px 0px 10px 90px;
+}
+
+section footer .bottom-footer .row .col-sm-6 p{
+    color: white;
+    padding: 0px 0px 50px 90px;
+}
+
+section footer .bottom-footer .row .col-sm-2{
+    margin-top: 30px;
+    color: white;
+}
+
+section footer .bottom-footer .row .col-sm-2 ul{
+    list-style-type: none;
+}
+
+section footer .bottom-footer .row .col-sm-2 ul li{
+    font-size: 18px;
+}
